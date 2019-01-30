@@ -1,0 +1,142 @@
+body {
+  background-color : #e5e7e9;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+}
+
+form {
+  display: inline;
+} 
+
+.error {
+  color: #ff0000;
+  background-color: #ffff00;
+  font-weight: bold;
+  font-size: 0.8em;
+  border-radius: 5px;
+}
+
+.nota {
+  font-size: 0.8em;  
+}
+
+.divisor {
+  margin: 0px;
+}
+
+.boton {
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  color: yellow;
+  background: #638cb5;
+  border: 1px solid grey;
+  padding: 2px 10px;
+  border-radius: 5px;
+ }
+
+ .boton:disabled {
+  color: white;  
+ }
+
+/* estilo de la pagina de login */
+
+#login {
+  position : absolute;
+  top: calc(50% - 105px);
+  left: calc(50% - 200px);
+  width: 230px;
+  height: 210px;
+  border: 1px solid grey;
+  background-color: #bdc3c7;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#login .campo  {
+  margin: 10px 0px;
+}
+
+#login .campo label {
+  display: block;
+}
+
+.entrada {
+  line-height: 140%;
+  color : #000; 
+  padding : 3px; 
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 18px;
+  width: 220px;
+}
+
+/* Estilo barra de navegacion superior */
+#barra_navegacion {
+  background-color: #769DB8;
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 20px;
+} 
+
+/* estilo listado de productos */
+
+#contenedor {
+  background-color: white;
+  width: 95%;
+  margin: 0 auto;
+  border: 1px dotted grey;
+  border-radius: 5px;
+  padding: 0px 20px 20px 20px;
+}
+
+#contenedor span {
+  margin: 0px 5px;
+}
+
+.fila {
+  display : block;
+  padding: 5px;
+  border: 1px dotted grey;
+}
+
+.nombre {
+  font-weight: bold;
+}
+
+.precio {
+  font-style: italic;
+}
+
+/* la imagen que identifica un pc */
+.imagenpc {
+  margin-bottom: -10px;
+  height: 22px;
+}
+
+#encabezado {
+  padding: 0px 20px;
+  border-radius: 5px;
+  background-color: #95B3D7;
+  color: white; 
+}
+
+#encabezado h1 {
+  margin: 0px;
+  padding: 10px 0; 
+}
+
+#cesta {
+  float: right;
+  width: 20%;
+  border: 1px dotted grey;
+  border-radius: 5px;
+  background-color: #f8f9f9;
+  padding: 5px 10px;
+}
+
+#cesta p {
+  font-size: 0.8em;
+}
